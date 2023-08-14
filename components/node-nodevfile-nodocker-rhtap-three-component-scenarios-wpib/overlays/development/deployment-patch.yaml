@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: node-nodevfile-nodocker-rhtap-three-component-scenarios-wpib
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-yyey-tenant/mc-three-scenarios/node-nodevfile-nodocker-rhtap-three-component-scenarios-wpib@sha256:fecaa985a91da0b93053c33dc686bef6f1d1a2c576d83d52ad4adf4be89226a8
+        name: my-nodejs
+        resources: {}
+status: {}
